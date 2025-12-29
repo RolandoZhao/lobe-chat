@@ -4,9 +4,9 @@
   "alert": {
     "cloud": {
       "action": "立即体验",
-      "desc": "我们为所有注册用户提供了免费的 {{credit}} 额度计算积分，无需复杂配置开箱即用, 支持全局云同步与进阶联网查询，更多高级特性等你探索。",
-      "descOnMobile": "我们为所有注册用户提供了免费的 {{credit}} 额度计算积分，无需复杂配置开箱即用。",
-      "title": "{{name}} 开始公测"
+      "desc": " {{credit}} 更多高级特性等你探索。",
+      "descOnMobile": " {{credit}} 无需复杂配置开箱即用。",
+      "title": "{{name}} 降本增效"
     }
   },
   "appLoading": {
@@ -147,7 +147,7 @@
     "painting": "AI 绘画",
     "searchPlaceholder": "输入命令或搜索...",
     "settings": "设置",
-    "starOnGitHub": "在 GitHub 上给我们 Star",
+    "starOnGitHub": "感谢你对万福的支持",
     "submitIssue": "提交问题",
     "theme": "主题",
     "themeAuto": "跟随系统",
@@ -188,7 +188,7 @@
   "footer": {
     "action": {
       "feedback": "分享您宝贵的建议",
-      "star": "在 GitHub 给添加星标"
+      "star": "感谢你对万福的支持"
     },
     "and": "并",
     "feedback": {
