@@ -21,16 +21,6 @@ const BottomActions = memo(() => {
 
   return (
     <Flexbox gap={8}>
-      {!hideGitHub && (
-        <a aria-label={'GitHub'} href={GITHUB} rel="noopener noreferrer" target={'_blank'}>
-          <ActionIcon
-            icon={Github}
-            size={ICON_SIZE}
-            title={'GitHub'}
-            tooltipProps={{ placement: 'right' }}
-          />
-        </a>
-      )}
       <Link aria-label={t('labs')} to={'/labs'}>
         <ActionIcon
           icon={FlaskConical}
