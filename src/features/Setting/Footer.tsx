@@ -30,11 +30,19 @@ const Footer = memo<PropsWithChildren>(() => {
   const [openFeedback, setOpenFeedback] = useState(false);
   const { styles } = useStyles();
 
-  const { hideGitHub } = useServerConfigStore(featureFlagsSelectors);
+ const { hideGitHub } = useServerConfigStore(featureFlagsSelectors);
 
+  // 强制直接返回 null，隐藏整个底部 GitHub 推广栏
+  return null; 
+
+  /* 以下代码已被屏蔽，不再执行
   return hideGitHub ? null : (
     <>
-      <Flexbox className={LayoutSettingsFooterClassName} justify={'flex-end'}>
+      <Flexbox ...
+      ...
+    </>
+  ); 
+  */
         <Center
           as={'footer'}
           className={styles}
