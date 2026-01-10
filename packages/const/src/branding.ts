@@ -16,14 +16,14 @@ export const BRANDING_URL = {
 };
 
 export const SOCIAL_URL = {
-  discord: 'https://discord.gg/AYFPHvv2jT',
-  github: 'https://github.com/万福AI',
-  medium: 'https://medium.com/@万福AI',
-  x: 'https://x.com/万福AI',
-  youtube: 'https://www.youtube.com/@万福AI',
+  discord: undefined,
+  github: undefined,
+  medium: undefined,
+  x: undefined,
+  youtube: undefined,
 };
 
 export const BRANDING_EMAIL = {
-  business: 'hello@万福AI.com',
-  support: 'support@万福AI.com',
+  business: undefined,
+  support: undefined,
 };
